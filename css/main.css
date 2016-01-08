@@ -22,24 +22,38 @@ h1, p {
     background-image: url(../img/bghome.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #drinks {
   background-color: #DEDFD1;
+  background-image: url(../bar.jpg);
+  background-attachment: fixed;
 }
 
 #oysters {
   background-color: aquamarine;
+  background-image: url(../oysters.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
 
 #food {
-  
-  background-color: brown
+  background-image: url(../food.jpg);
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #music {
-  
+  background-image: url(../music.jpg);
   background-color: bisque;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
 }
 
 /* Animation Effects Styles ------------------------ */
@@ -54,4 +68,18 @@ section .grow {
   width: 100%;
   height: 100%;
   transition: linear;
+}
+
+/* Media Queries ---------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .products-wrapper section {
+    width: 100%;
+    height: 25%;
+    float: none
+  }
+  
+  #music {
+    
+  }
 }
