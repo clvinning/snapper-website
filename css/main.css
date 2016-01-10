@@ -11,18 +11,62 @@ h1, p {
 
 /* Main Content Styles --------------------------- */
 
-.products-wrapper section {
+.products-wrapper section,
+.about-wrapper div {
   width: 50%;
   height: 50%;
   float: left;
   clear: right;
+  box-sizing: border-box;
+}
+
+.about-wrapper div {
+  border-style: solid;
+  
+  
+}
+
+div.about-group1 {
+  
+}
+
+div.about-group2 {
+  
+}
+
+div.about-group3 {
+  
+}
+
+div.about-group4 {
+  background-color: #d71921;
+}
+
+.gallery-wrapper {
+  background-color: aqua;
+  background-image: linear-gradient(aqua, white);
+}
+
+h1.content-header {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  position: relative;
 }
 
 .home-wrapper {
-    background-image: url(../img/bghome.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(../img/bghome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-wrapper h1 {
+  color: aliceblue;
+  width: 50%;
+  margin: auto;
+  padding-top: 20%;
 }
 
 #drinks {
